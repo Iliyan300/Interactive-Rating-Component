@@ -32,8 +32,8 @@ body {
     background-image: linear-gradient(to right, #0b2957, #142243, #151b31, #13141f, #0c0c0d);
     background-position: center;
     color:var(--White);
-    min-height: 90svh;
-    margin:2rem;
+    min-height: 100svh;
+    margin:1rem;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -57,11 +57,12 @@ p {
 
 
 .main-container {
-    
+   
     background-image: linear-gradient(to right, #0b2957, #142243, #151b31, #13141f, #0c0c0d21);
     border-radius:2rem;
    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.356);
-   transition: 400ms ease-in;
+   margin:1rem;
+  
 }
 
 
@@ -71,8 +72,9 @@ p {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    margin:2rem;
+    margin:1rem;
     padding:1rem;
+    transition: 400ms ease;
     max-width: 30rem;
 }
 
@@ -87,8 +89,8 @@ p {
 
 .rating-component ul li button {
     
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
     border:none;
     background-color: var(--Dark-Blue);
@@ -149,6 +151,7 @@ p {
     align-items: center;
     text-align: center;
     
+    
 }
 
 .thankyou-component img {
@@ -173,8 +176,10 @@ p {
 
 
 .hidden {
-
+    
     display:none;
+  
+    
 }
 
 footer {
