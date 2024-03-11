@@ -1,5 +1,5 @@
-# Frontend Mentor - Interactive rating component
-
+# Frontend Mentor - Interactive rating component HTML,CSS,JS
+# Coded by Ilian Georgiev.
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
